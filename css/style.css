@@ -2724,7 +2724,7 @@ h6 {
   color: #222222; }
 .personal_text p {
   font-family: "Roboto", sans-serif;
-  max-width: 540px;
+/*  max-width: 540px;*/
   color: #777777;
   margin-bottom: 40px; }
 .personal_text .basic_info li {
@@ -2753,7 +2753,7 @@ h6 {
     .personal_text .personal_social li a {
       line-height: 40px;
       width: 40px;
-      background: #e8e8e8;
+      background: #000;
       border-radius: 5px;
       display: inline-block;
       text-align: center;
