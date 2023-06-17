@@ -2578,7 +2578,7 @@ h6 {
         background: #fff;
         color: #222222; }
 .tabs_inner .tab-content .tab-pane .list {
-  max-width: 460px;
+  max-width: 900px;
   margin: auto;
   position: relative;
   padding-top: 40px;
@@ -2589,7 +2589,7 @@ h6 {
     width: 5px;
     background: rgba(255, 255, 255, 0.2);
     position: absolute;
-    left: 46%;
+    left: 26%;
     transform: translateX(-50%);
     top: -5px; }
   .tabs_inner .tab-content .tab-pane .list li {
@@ -2602,7 +2602,7 @@ h6 {
       display: block;
       background: rgba(255, 255, 255, 0.2);
       position: absolute;
-      left: 46%;
+      left: 26%;
       top: 30px;
       transform: translateX(-50%); }
       .tabs_inner .tab-content .tab-pane .list li span:before {
@@ -2612,9 +2612,10 @@ h6 {
         background: #fff;
         border-radius: 50%;
         position: absolute;
-        left: 52%;
+        left: 26% !important;
         top: 4px;
-        transform: translateX(-50%); }
+        transform: translateX(-50%); 
+      }
     .tabs_inner .tab-content .tab-pane .list li:last-child {
       margin-bottom: 0px; }
     .tabs_inner .tab-content .tab-pane .list li .media .d-flex {
@@ -3003,3 +3004,30 @@ h6 {
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+.experience{
+  text-align: left !important;
+  margin-left: 15%;
+}
+.media-body ul{
+  list-style: square;
+  margin: 0;
+  padding: 0;
+
+}
+.media-body ul li {
+  color: white;
+  font-size: 12px;
+  margin: 5px;
+  margin-bottom: 0px !important;
+  position: relative;
+}
+.list-home {
+  margin: auto;
+  position: relative;
+}
+.list-home:before {
+    content: "";
+    width: 100%;
+    position: absolute;
+     }
+
