@@ -3008,6 +3008,19 @@ h6 {
   text-align: left !important;
   margin-left: 15%;
 }
+#profile{
+    text-align: left !important;
+  margin-left: 15%;
+}
+.list-profile{
+  margin-left: 8% !important;
+}
+.list-profile li{
+/*  margin-left: 100px !important;*/
+}
+.list-media{
+  margin-left: 60px !important;
+}
 .media-body ul{
   list-style: square;
   margin: 0;
