@@ -53,12 +53,11 @@
             >
               <ul class="nav navbar-nav menu_nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.php">Home</a>
+                  <a class="nav-link" href="index.html">Home</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about-us.html">About</a>
-                </li>
-                <!-- <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>  -->
+                <!-- <li class="nav-item">
+                <a class="nav-link" href="about-us.html">About</a>
+              </li> -->
                 <li class="nav-item">
                   <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
@@ -72,7 +71,6 @@
         </nav>
       </div>
     </header>
-    <!--================Header Menu Area =================-->
     <!--================Home Banner Area =================-->
     <section class="home_banner_area">
       <div class="container box_1620">
@@ -106,25 +104,74 @@
                     source code while working with honesty, sincerity,and a
                     drive to fulfill my true potential
                   </p>
-                  <ul class="list basic_info">
-                    <!-- <li><a href="#"><i class="lnr lnr-calendar-full"></i> 31st December, 1992</a></li> -->
-                    <li>
-                      <a href="#"
-                        ><i class="lnr lnr-phone-handset"></i> (+880)
-                        1840-040371</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="lnr lnr-envelope"></i> habib.cst@gmail.com</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="lnr lnr-home"></i> Dhaka,Bangladesh</a
-                      >
-                    </li>
-                  </ul>
+                  <div class="row d-flex">
+                    <div class="col-md-4">
+                      <ul class="list basic_info">
+                        <!-- <li><a href="#"><i class="lnr lnr-calendar-full"></i> 31st December, 1992</a></li> -->
+                        <li>
+                          <a href="#"
+                            ><i class="lnr lnr-phone-handset"></i> (+880)
+                            1840-040371</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#"
+                            ><i class="lnr lnr-envelope"></i>
+                            habib.cst@gmail.com</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#"
+                            ><i class="fa fa-skype" style="font-size: 24px"></i>
+                            a_habib45</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#"
+                            ><i class="fa fa-globe"></i> Dhaka,Bangladesh</a
+                          >
+                        </li>
+                        <li>
+                          <a href="https://medium.com/@habib-cst"
+                            ><i class="fa fa-medium"></i>Medium ( Blog )
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-md-8">
+                      <ul class="list basic_info">
+                        <li>
+                          <a
+                            href="resume/Ahsan_Habib_Resume_PHP-8Years-v2.pdf"
+                            download
+                            style="color: green"
+                            ><i class="fa fa-file-pdf-o"></i>My Resume</a
+                          >
+                        </li>
+                        <li>
+                          <a href="https://medium.com/@habib-cst"
+                            ><i class="fa fa-mortar-board"></i>BSC In Computer
+                            science and engineering
+                          </a>
+                        </li>
+
+                        <li>
+                          <a
+                            href="https://www.zend-zce.com/en/yellow-pages/ZEND033481%E2%80%8E"
+                            target="_blank"
+                          >
+                            <i class="fa fa-trophy"></i>Zend certified engineer
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i class="fa fa-trophy"></i>Certified scrum master
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
                   <ul class="list personal_social">
                     <li>
                       <a href="https://github.com/habib45"
@@ -140,6 +187,11 @@
                       <a href="https://www.linkedin.com/in/ahabib45/"
                         ><i class="fa fa-linkedin"></i
                       ></a>
+                    </li>
+                    <li>
+                      <a href="https://join.skype.com/invite/dWua0CANETU9"
+                        ><i class="fa fa-skype"></i>
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -8273,15 +8325,21 @@
       <div class="container">
         <div class="main_title">
           <h2>Our Latest Featured Projects</h2>
-          <p>Who are in extremely love with eco friendly system.</p>
+          <!-- <p>Who are in extremely love with eco friendly system.</p> -->
         </div>
         <div class="isotope_fillter">
           <ul class="gallery_filter list">
             <li class="active" data-filter="*"><a href="#">All</a></li>
-            <li data-filter=".brand"><a href="#">E-Commerce</a></li>
-            <li data-filter=".manipul"><a href="#">Accounting</a></li>
-            <li data-filter=".creative"><a href="#">Web-Application</a></li>
-            <li data-filter=".design"><a href="#">Fintech Solutions</a></li>
+            <li data-filter=".ecommerce"><a href="#">E-Commerce</a></li>
+            <li data-filter=".ERP"><a href="#">ERP</a></li>
+            <li data-filter=".web-application">
+              <a href="#">Web-Application</a>
+            </li>
+            <li data-filter=".Fintech"><a href="#">Fintech Solutions</a></li>
+            <li data-filter=".telecom"><a href="#">Telecom-Solutions</a></li>
+            <li data-filter=".transportation">
+              <a href="#">Transportation-Solutions</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -8297,7 +8355,9 @@
       </style>
       <div class="container">
         <div class="gallery_f_inner row imageGallery1">
-          <div class="col-lg-4 col-md-4 col-sm-6 brand manipul design print">
+          <div
+            class="col-lg-4 col-md-4 col-sm-6 telecom web-application Fintech"
+          >
             <div class="h_gallery_item gallery_item_1">
               <div class="g_img_item img_item_div">
                 <img class="img-fluid" src="img/gallery/dwe.png" alt="" />
@@ -8319,7 +8379,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-6 brand manipul creative">
+          <div class="col-lg-4 col-md-4 col-sm-6 telecom">
             <div class="h_gallery_item gallery_item_1">
               <div class="g_img_item img_item_div">
                 <img class="img-fluid" src="img/gallery/bl/bl-app.png" alt="" />
@@ -8344,7 +8404,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-4 col-sm-6 manipul creative design print">
+          <div class="col-lg-4 col-md-4 col-sm-6 ecommerce web-application">
             <div class="h_gallery_item gallery_item_1">
               <div class="g_img_item img_item_div">
                 <img
@@ -8370,7 +8430,9 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-6 brand creative print">
+          <div
+            class="col-lg-4 col-md-4 col-sm-6 transportation Fintech web-application"
+          >
             <div class="h_gallery_item gallery_item_1">
               <div class="g_img_item img_item_div">
                 <img class="img-fluid" src="img/gallery/wc/wc.png" alt="" />
@@ -8392,7 +8454,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-6 brand manipul design">
+          <div class="col-lg-4 col-md-4 col-sm-6 Fintech">
             <div class="h_gallery_item gallery_item_1">
               <div class="g_img_item img_item_div">
                 <img class="img-fluid" src="img/gallery/cty/1.jpg" alt="" />
@@ -8413,7 +8475,9 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-6 brand creative">
+          <div
+            class="col-lg-4 col-md-4 col-sm-6 transportation web-application"
+          >
             <div class="h_gallery_item gallery_item_1">
               <div class="g_img_item img_item_div">
                 <img class="img-fluid" src="img/gallery/pr/1.png" alt="" />
