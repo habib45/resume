@@ -97,11 +97,11 @@
     <!--================End Home Banner Area =================-->
 
     <!--================Home Gallery Area =================-->
-    <section class="home_gallery_area" style="margin-bottom: 20px">
-      <div class="container">
-        <div class="isotope_fillter">
+    <section class="home_gallery_area" style="margin-bottom: 20px;">
+      <div class="container" style="font-size: 100px; box-shadow: -1px 44px 8px #dbdbdb inset; margin-top: 162px !important;">
+        <div class="isotope_fillter" style="border-bottom: 1px #CCC solid; padding-bottom: 40px;">
           <ul class="gallery_filter list">
-            <li class="active" data-filter="*"><a href="#">All</a></li>
+            <li class="active" data-filter="*"><a href="#" style="">All</a></li>
             <li data-filter=".ecommerce"><a href="#">E-Commerce</a></li>
             <li data-filter=".ERP"><a href="#">ERP</a></li>
             <li data-filter=".web-application">
@@ -114,8 +114,14 @@
             </li>
           </ul>
         </div>
+<!--        <hr>-->
       </div>
+
       <style type="text/css">
+        .banner_area{
+          background-image: -webkit-linear-gradient(0deg, #49439f 0%, #3ea7b3 100%) !important;
+          background-image: -moz-linear-gradient(0deg, #49439f 0%, #3ea7b3 100%); !important;
+        }
         .gallery_item_1 {
           background-color: #eee !important;
           border: 1px #ccc solid !important;
@@ -123,6 +129,11 @@
         }
         .img_item_div {
           padding: 5px;
+        }
+        .gallery_filter> .active>a{
+          background-color: #5a53be;
+          border: 1px #EEE solid; padding: 17px 26px 17px 26px;
+          color: #ffffff !important;
         }
       </style>
       <div class="container">
